@@ -1,5 +1,5 @@
 const express=require('express');
-const ProductController=require('../controllers/ProductController')
+const Salescontroller=require('../controllers/SalesController')
 
 
 const router=express.Router();
@@ -7,7 +7,7 @@ const router=express.Router();
 
 
 // Product
-router.get('/api/sales/total-revenue',Salescontroller.)
+router.get('/api/sales/total-revenue',Salescontroller.SalesList)
 
 
 //GET /api/sales/total-revenue
