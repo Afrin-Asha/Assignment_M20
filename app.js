@@ -15,8 +15,8 @@ const path = require("path");
 
 
 
-let URL="mongodb+srv://<username>:<password>@cluster0.7uslu.mongodb.net/MernEcommerce?retryWrites=true&w=majority";
-let option={user:'testuser7777',pass:"testuser7777",autoIndex:true};
+let URI="mongodb+srv://<username>:<password>@cluster0.vwtd1ur.mongodb.net/MernEcommerce?retryWrites=true&w=majority";
+let OPTION={user:'afrinasha217',pass:'afrin123',autoIndex:true}
 mongoose.connect(URL,option).then((res)=>{
     console.log("Database Connected")
 }).catch((err)=>{
